@@ -1,0 +1,44 @@
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: 10px;
+}
+
+.wrapper {
+    width: 1vw;
+    border: 1px solid #000;
+}
+.wrapper .sign {
+    margin: 0 1rem;
+}
+.wrapper .sign p {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.wrapper .info p {
+    position: relative;
+    font-size: 0.9em;
+    margin-left: 1rem;
+}
+
+.wrapper .info p span {
+    position: absolute;
+    left: 6rem;
+}
+
+.wrapper .info p span::before {
+    content: ":";
+    margin-right: 0.5rem;
+}
+
+.report-table {
+    width: 100vw !important;
+    margin: 1rem 1rem !important;
+    line-height: 15px !important;
+}
+
+.report-table thead tr td {
+    font-size: 0.8em;
+}
